@@ -1,0 +1,77 @@
+body {
+    background-color: lightgrey;
+}
+header
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grid-container
+{
+    display: grid;
+   grid-template-areas: "header header header header"
+"categorie1 categorie2 categorie3 categorie4 "
+"Profil Profil Profil Profil"
+"Parfum1 Parfum2 maquillage Filtre"
+"Footer Footer Footer Footer";
+    gap: 1rem;
+
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.grid-item
+{
+    text-align: center;
+
+}
+.item1{
+    grid-area: header;
+}
+.item2{
+    grid-area: Profil;
+    border: 1px solid black;
+}
+.item3{
+    grid-area: Parfum1;
+    border: 1px solid black;
+}
+.item4{
+    grid-area: Parfum2;
+    border: 1px solid black;
+}
+.item5{
+    grid-area: maquillage;
+    border: 1px solid black;
+}
+
+
+.item6{
+    grid-area: categorie1;
+    color: crimson;
+    border: 1px solid black;
+}
+.item7{
+    grid-area: categorie2;
+    color: crimson;
+    border: 1px solid black;
+}
+.item8 {
+    grid-area: categorie3;
+    color: crimson;
+    border: 1px solid black;
+}
+    .item9{
+        grid-area: categorie4;
+        border: 1px solid black;
+    }
+    .item10{
+        grid-area: Filtre;
+        border: 1px solid black;
+    }
+.item11 {
+grid-area: Footer;
+    border: 1px solid black;
+}
+

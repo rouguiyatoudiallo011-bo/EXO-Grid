@@ -1,0 +1,30 @@
+.grid-container{
+    display: grid;
+    grid-template-areas: "header header"
+    "sidebar content"
+    "footer footer";
+    gap: 1rem;
+
+}
+
+.item1 {
+    grid-area: header;
+    background-color: darkseagreen;
+    padding: 4rem;
+}
+.item2 {
+    grid-area: content;
+    background-color: cornflowerblue;
+    padding: 2rem;
+}
+.item3 {
+    grid-area: sidebar;
+    background-color: chocolate;
+    padding: 2rem;
+}
+.item4 {
+    grid-area: footer;
+    background-color: darkkhaki;
+    padding: 3rem;
+}
+
