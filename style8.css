@@ -4,6 +4,7 @@ body {
 header
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
 }
 
 .grid-container
@@ -14,7 +15,7 @@ header
 "Profil Profil Profil Profil"
 "Parfum1 Parfum2 maquillage Filtre"
 "Footer Footer Footer Footer";
-    gap: 1rem;
+    gap: 80px;
 
 }
 img {
@@ -24,6 +25,7 @@ img {
 .grid-item
 {
     text-align: center;
+
 
 }
 .item1{
@@ -69,9 +71,15 @@ img {
     .item10{
         grid-area: Filtre;
         border: 1px solid black;
+        line-height: 15px;
+        text-decoration: underline;
     }
 .item11 {
 grid-area: Footer;
     border: 1px solid black;
-}
+    margin-top: 30px;
 
+}
+.pf{
+    line-height: 50px;
+}
